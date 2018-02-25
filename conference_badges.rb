@@ -1,4 +1,4 @@
 def badge_maker(name)
-  name = ""
+  name = gets.chomp
   puts "Hello my name is #{name}."
 end
