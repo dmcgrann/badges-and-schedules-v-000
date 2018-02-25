@@ -12,5 +12,5 @@ def assign_rooms(attendees)
     puts "Hello, #{name}! You'll be assigned to room #{room}."
     room += 1
   end
-  assign_rooms
+  assign_rooms(attendees)
 end
